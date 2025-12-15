@@ -10,6 +10,8 @@ public:
     string();
     string(const char *text);
     ~string();
+    int size() const;
+    const char *c_str() const;
 };
 
 

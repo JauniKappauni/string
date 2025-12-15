@@ -32,3 +32,13 @@ string::~string()
 {
     delete[] data;
 }
+
+int string::size() const
+{
+    return length;
+}
+
+const char *string::c_str() const
+{
+    return data;
+}
