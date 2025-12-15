@@ -42,3 +42,12 @@ const char *string::c_str() const
 {
     return data;
 }
+
+char &string::operator[](int index)
+{
+    return data[index];
+}
+const char &string::operator[](int index) const
+{
+    return data[index];
+}

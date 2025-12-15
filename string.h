@@ -12,6 +12,8 @@ public:
     ~string();
     int size() const;
     const char *c_str() const;
+    char& operator[](int index);
+    const char& operator[](int index) const;
 };
 
 
