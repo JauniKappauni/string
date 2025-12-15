@@ -8,14 +8,8 @@ private:
 
 public:
     string();
-    string(char *text);
+    string(const char *text);
     ~string();
 };
 
-string::string()
-{
-}
 
-string::~string()
-{
-}
